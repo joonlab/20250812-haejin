@@ -6,7 +6,7 @@
 
 import { GoogleGenAI, File as GenAIFile, GenerateContentResponse, Type } from '@google/genai';
 
-const client = new GoogleGenAI({apiKey: "AIzaSyCpNblxOuo6QlVe_7GwUF1mJLRujZn3LsI"});
+const client = new GoogleGenAI({apiKey: "AIzaSyAQJvP5STofNwyL1mU0aU8VgMH7caFGZhM"});
 
 const analysisSchema = {
   type: Type.OBJECT,
