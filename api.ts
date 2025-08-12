@@ -6,7 +6,8 @@
 
 import { GoogleGenAI, File as GenAIFile, GenerateContentResponse, Type } from '@google/genai';
 
-const client = new GoogleGenAI({apiKey: "AIzaSyAQJvP5STofNwyL1mU0aU8VgMH7caFGZhM"});
+const apiKey = process.env.GEMINI_API_KEY;
+const client = new GoogleGenAI({apiKey});
 
 const analysisSchema = {
   type: Type.OBJECT,
