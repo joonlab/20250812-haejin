@@ -299,7 +299,7 @@ export default function App() {
                 <header className="header">
                     <h1>
                         <span className="material-symbols-outlined">smart_display</span>
-                        매장 평가 영상 자동 분석 시스템
+                        Store Evaluation Video Automatic Analysis System
                     </h1>
                     <p>방문평가 영상을 체계적으로 분석하고 개선점을 제안해드립니다</p>
                 </header>
